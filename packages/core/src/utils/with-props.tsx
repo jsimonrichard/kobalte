@@ -5,6 +5,8 @@ import {
 	mergeProps,
 } from "solid-js";
 import { Polymorphic } from "../polymorphic";
+import clsx, { ClassValue } from "clsx";
+import { twMerge } from "tailwind-merge";
 
 export type ResolvePropsCallback<
 	T extends ValidComponent,
@@ -13,6 +15,20 @@ export type ResolvePropsCallback<
 	props: Omit<ComponentProps<T>, keyof ExtraProps> & Partial<ComponentProps<T>>,
 	extraProps: ExtraProps,
 ) => Partial<ComponentProps<T>>;
+
+export function cn(...inputs: ClassValue[]) {
+	return twMerge(clsx(inputs));
+}
+
+export const resolveClasses: ResolvePropsCallback<any> = (
+	props,
+	extraProps,
+) => ({
+	class:
+		props.class &&
+		"class" in extraProps &&
+		cn(extraProps.class as ClassValue, props.class),
+});
 
 export type PropsWithout<
 	T extends ValidComponent,
@@ -33,7 +49,7 @@ export function withProps<
 		| ExtraProps
 		| ((props: ExtraPropInputs & Partial<ComponentProps<T>>) => ExtraProps),
 	excludeFromComponentProps: (keyof ExtraPropInputs)[] = [],
-	resolveProps?: ResolvePropsCallback<T, ExtraProps>,
+	resolveProps: ResolvePropsCallback<T, ExtraProps> = resolveClasses,
 ) {
 	return <U extends ValidComponent>(
 		props: PropsWithout<T, U, ExtraProps> & ExtraPropInputs,
