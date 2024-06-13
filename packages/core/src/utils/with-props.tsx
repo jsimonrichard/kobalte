@@ -16,10 +16,6 @@ export type ResolvePropsCallback<
 	extraProps: ExtraProps,
 ) => Partial<ComponentProps<T>>;
 
-export function cn(...inputs: ClassValue[]) {
-	return twMerge(clsx(inputs));
-}
-
 export const resolveClasses: ResolvePropsCallback<any> = (
 	props,
 	extraProps,
@@ -27,7 +23,7 @@ export const resolveClasses: ResolvePropsCallback<any> = (
 	class:
 		props.class &&
 		"class" in extraProps &&
-		cn(extraProps.class as ClassValue, props.class),
+		twMerge(clsx(extraProps.class as ClassValue, props.class)),
 });
 
 export type PropsWithout<
