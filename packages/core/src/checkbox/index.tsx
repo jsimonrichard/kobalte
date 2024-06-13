@@ -1,4 +1,9 @@
 import {
+	useCheckboxContext,
+	type CheckboxDataSet,
+	type CheckboxContextValue,
+} from "./checkbox-context";
+import {
 	CheckboxControl as Control,
 	type CheckboxControlCommonProps,
 	type CheckboxControlOptions,
@@ -49,6 +54,8 @@ import {
 } from "./checkbox-root";
 
 export type {
+	CheckboxDataSet,
+	CheckboxContextValue,
 	CheckboxControlOptions,
 	CheckboxControlCommonProps,
 	CheckboxControlRenderProps,
@@ -76,7 +83,7 @@ export type {
 	CheckboxRootOptions,
 	CheckboxRootProps,
 };
-export { Control, Description, ErrorMessage, Indicator, Input, Label, Root };
+export { Control, Description, ErrorMessage, Indicator, Input, Label, Root, useCheckboxContext };
 
 export const Checkbox = Object.assign(Root, {
 	Control,
