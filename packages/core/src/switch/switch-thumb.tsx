@@ -1,4 +1,4 @@
-import { mergeDefaultProps } from "@kobalte/utils";
+import { mergeDefaultProps } from "@trellis-app/kobalte-utils";
 import { ValidComponent } from "solid-js";
 
 import { FormControlDataSet, useFormControlContext } from "../form-control";

@@ -1,4 +1,7 @@
-import { createGenerateId, mergeDefaultProps } from "@kobalte/utils";
+import {
+	createGenerateId,
+	mergeDefaultProps,
+} from "@trellis-app/kobalte-utils";
 import { ParentProps, createSignal, createUniqueId } from "solid-js";
 
 import createPresence from "solid-presence";

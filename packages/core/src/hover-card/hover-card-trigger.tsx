@@ -6,7 +6,7 @@
  * https://github.com/ariakit/ariakit/blob/84e97943ad637a582c01c9b56d880cd95f595737/packages/ariakit/src/hovercard/hovercard-anchor.ts
  */
 
-import { callHandler, mergeRefs } from "@kobalte/utils";
+import { callHandler, mergeRefs } from "@trellis-app/kobalte-utils";
 import {
 	Component,
 	JSX,

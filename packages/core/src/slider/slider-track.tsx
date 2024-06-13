@@ -1,4 +1,4 @@
-import { callHandler, mergeRefs } from "@kobalte/utils";
+import { callHandler, mergeRefs } from "@trellis-app/kobalte-utils";
 import { JSX, ValidComponent, createSignal, splitProps } from "solid-js";
 
 import { ElementOf, Polymorphic, PolymorphicProps } from "../polymorphic";

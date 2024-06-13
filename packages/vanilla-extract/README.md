@@ -1,15 +1,15 @@
-# @kobalte/vanilla-extract
+# @trellis-app/kobalte-vanilla-extract
 
 Vanilla Extract utils to style Kobalte components easily.
 
 ## Installation
 
 ```bash
-npm install -D @kobalte/vanilla-extract
+npm install -D @trellis-app/kobalte-vanilla-extract
 # or
-yarn add -D @kobalte/vanilla-extract
+yarn add -D @trellis-app/kobalte-vanilla-extract
 # or
-pnpm add -D @kobalte/vanilla-extract
+pnpm add -D @trellis-app/kobalte-vanilla-extract
 ```
 
 > **Note** In order to use these utils you need to configure Vanilla Extract in your project. https://vanilla-extract.style
@@ -23,7 +23,7 @@ Create vanilla-extract complaint styles for styling data-\* attributes of Kobalt
 ```ts
 // styles.css
 import { style } from "@vanilla-extract/css";
-import { componentStateStyles } from "@kobalte/vanilla-extract";
+import { componentStateStyles } from "@trellis-app/kobalte-vanilla-extract";
 
 const button = style([
 	{
@@ -55,7 +55,7 @@ const button = style([
 Then apply your styles to the component:
 
 ```tsx
-import { Button } from "@kobalte/core";
+import { Button } from "@trellis-app/kobalte-core";
 import { button } from "./styles.css";
 
 export const MyButton = () => <Button.Root class={button}>...</Button.Root>;

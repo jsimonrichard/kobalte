@@ -6,7 +6,11 @@
  * https://github.com/adobe/react-spectrum/blob/0a1d0cd4e1b2f77eed7c0ea08fce8a04f8de6921/packages/@react-aria/select/src/HiddenSelect.tsx
  */
 
-import { callHandler, mergeRefs, visuallyHiddenStyles } from "@kobalte/utils";
+import {
+	callHandler,
+	mergeRefs,
+	visuallyHiddenStyles,
+} from "@trellis-app/kobalte-utils";
 import {
 	ComponentProps,
 	For,

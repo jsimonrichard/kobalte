@@ -14,7 +14,7 @@ import {
 	getWindow,
 	mergeDefaultProps,
 	mergeRefs,
-} from "@kobalte/utils";
+} from "@trellis-app/kobalte-utils";
 import { JSX, splitProps } from "solid-js";
 
 import { useFormControlContext } from "../form-control";

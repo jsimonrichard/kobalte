@@ -1,4 +1,9 @@
-import { EventKey, MaybeAccessor, access, getDocument } from "@kobalte/utils";
+import {
+	EventKey,
+	MaybeAccessor,
+	access,
+	getDocument,
+} from "@trellis-app/kobalte-utils";
 import { Accessor, createEffect, onCleanup } from "solid-js";
 import { isServer } from "solid-js/web";
 

@@ -1,4 +1,4 @@
-# @kobalte/tailwindcss
+# @trellis-app/kobalte-tailwindcss
 
 ## 0.9.0
 

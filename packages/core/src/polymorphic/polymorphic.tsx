@@ -1,10 +1,13 @@
 /* @refresh reload */
 
-import { OverrideProps } from "@kobalte/utils";
+import { OverrideProps } from "@trellis-app/kobalte-utils";
 import { ComponentProps, JSX, ValidComponent, splitProps } from "solid-js";
 import { Dynamic } from "solid-js/web";
 
-export type { OverrideComponentProps, OverrideProps } from "@kobalte/utils";
+export type {
+	OverrideComponentProps,
+	OverrideProps,
+} from "@trellis-app/kobalte-utils";
 
 /* -------------------------------------------------------------------------------------------------
  * Polymorphic

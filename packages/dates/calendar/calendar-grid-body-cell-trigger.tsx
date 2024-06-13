@@ -13,7 +13,7 @@ import {
 	focusWithoutScrolling,
 	getWindow,
 	mergeRefs,
-} from "@kobalte/utils";
+} from "@trellis-app/kobalte-utils";
 import { JSX, createEffect, createMemo, splitProps } from "solid-js";
 
 import { createDateFormatter } from "../i18n";

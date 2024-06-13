@@ -1,4 +1,4 @@
-import { MaybeAccessor } from "@kobalte/utils";
+import { MaybeAccessor } from "@trellis-app/kobalte-utils";
 
 import { DomCollectionItem } from "../create-dom-collection";
 

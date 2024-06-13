@@ -2,7 +2,7 @@ import {
 	Orientation,
 	createGenerateId,
 	mergeDefaultProps,
-} from "@kobalte/utils";
+} from "@trellis-app/kobalte-utils";
 import { ParentProps, createUniqueId, splitProps } from "solid-js";
 
 import { useOptionalMenubarContext } from "../menubar/menubar-context";

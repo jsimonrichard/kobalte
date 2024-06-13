@@ -1,4 +1,4 @@
-import { MaybeAccessor, mergeDefaultProps } from "@kobalte/utils";
+import { MaybeAccessor, mergeDefaultProps } from "@trellis-app/kobalte-utils";
 import { createEffect, onCleanup } from "solid-js";
 
 import { useDomCollectionContext } from "./dom-collection-context";

@@ -6,7 +6,7 @@
  * https://github.com/ariakit/ariakit/blob/da142672eddefa99365773ced72171facc06fdcb/packages/ariakit/src/collection/collection-state.ts
  */
 
-import { getDocument } from "@kobalte/utils";
+import { getDocument } from "@trellis-app/kobalte-utils";
 import { Accessor, createEffect, onCleanup } from "solid-js";
 
 import { DomCollectionItem } from "./types";

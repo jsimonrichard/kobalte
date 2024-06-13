@@ -1,4 +1,4 @@
-import { mergeDefaultProps } from "@kobalte/utils";
+import { mergeDefaultProps } from "@trellis-app/kobalte-utils";
 import { ParentProps, createUniqueId, splitProps } from "solid-js";
 
 import { MenuRoot, MenuRootOptions } from "../menu";

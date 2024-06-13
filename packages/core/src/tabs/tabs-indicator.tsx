@@ -15,7 +15,7 @@ import {
 	splitProps,
 } from "solid-js";
 
-import { Orientation } from "@kobalte/utils";
+import { Orientation } from "@trellis-app/kobalte-utils";
 import { useLocale } from "../i18n";
 import { ElementOf, Polymorphic, PolymorphicProps } from "../polymorphic";
 import { useTabsContext } from "./tabs-context";

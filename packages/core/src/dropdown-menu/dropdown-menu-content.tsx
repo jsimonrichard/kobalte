@@ -1,4 +1,7 @@
-import { OverrideComponentProps, focusWithoutScrolling } from "@kobalte/utils";
+import {
+	OverrideComponentProps,
+	focusWithoutScrolling,
+} from "@trellis-app/kobalte-utils";
 import { Component, ValidComponent, splitProps } from "solid-js";
 
 import {

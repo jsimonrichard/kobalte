@@ -1,4 +1,8 @@
-import { MaybeAccessor, access, mergeDefaultProps } from "@kobalte/utils";
+import {
+	MaybeAccessor,
+	access,
+	mergeDefaultProps,
+} from "@trellis-app/kobalte-utils";
 import { createEffect, onCleanup } from "solid-js";
 
 import { useFormControlContext } from "./form-control-context";

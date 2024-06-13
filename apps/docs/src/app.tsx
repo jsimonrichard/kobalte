@@ -13,8 +13,8 @@ import {
 	ColorModeProvider,
 	ColorModeScript,
 	cookieStorageManagerSSR,
-} from "@kobalte/core/color-mode";
-import { Toast } from "@kobalte/core/toast";
+} from "@trellis-app/kobalte-core/color-mode";
+import { Toast } from "@trellis-app/kobalte-core/toast";
 import { getCookie } from "vinxi/server";
 import toastStyles from "./examples/toast.module.css";
 import { mdxComponents } from "./mdx-components";

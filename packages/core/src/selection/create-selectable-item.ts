@@ -6,7 +6,11 @@
  * https://github.com/adobe/react-spectrum/blob/8f2f2acb3d5850382ebe631f055f88c704aa7d17/packages/@react-aria/selection/src/useSelectableItem.ts
  */
 
-import { MaybeAccessor, access, focusWithoutScrolling } from "@kobalte/utils";
+import {
+	MaybeAccessor,
+	access,
+	focusWithoutScrolling,
+} from "@trellis-app/kobalte-utils";
 import { Accessor, JSX, createEffect, createMemo, on } from "solid-js";
 
 import { MultipleSelectionManager } from "./types";

@@ -1,4 +1,4 @@
-# @kobalte/tests
+# @trellis-app/kobalte-tests
 
 Helper package that is used to contain commonly repeated tests logic.
 

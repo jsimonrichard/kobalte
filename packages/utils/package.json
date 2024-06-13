@@ -1,5 +1,5 @@
 {
-  "name": "@kobalte/utils",
+  "name": "@trellis-app/kobalte-utils",
   "version": "0.9.0",
   "private": false,
   "description": "Common utilities and types for Kobalte.",

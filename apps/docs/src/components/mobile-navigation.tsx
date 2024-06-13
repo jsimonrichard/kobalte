@@ -1,6 +1,6 @@
-import { Dialog } from "@kobalte/core/dialog";
-import { createDisclosureState } from "@kobalte/core/primitives/create-disclosure-state";
-import { Separator } from "@kobalte/core/separator";
+import { Dialog } from "@trellis-app/kobalte-core/dialog";
+import { createDisclosureState } from "@trellis-app/kobalte-core/primitives/create-disclosure-state";
+import { Separator } from "@trellis-app/kobalte-core/separator";
 import { useIsRouting, useMatch } from "@solidjs/router";
 import { clsx } from "clsx";
 import { ComponentProps, createComputed, splitProps } from "solid-js";

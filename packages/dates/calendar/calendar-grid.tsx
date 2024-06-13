@@ -16,7 +16,7 @@ import {
 	OverrideComponentProps,
 	callHandler,
 	mergeDefaultProps,
-} from "@kobalte/utils";
+} from "@trellis-app/kobalte-utils";
 import { JSX, createMemo, splitProps } from "solid-js";
 
 import { createDateFormatter } from "../i18n";

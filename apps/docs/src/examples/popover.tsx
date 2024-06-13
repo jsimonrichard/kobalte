@@ -1,4 +1,4 @@
-import { Popover } from "@kobalte/core/popover";
+import { Popover } from "@trellis-app/kobalte-core/popover";
 import { createSignal } from "solid-js";
 
 import { CrossIcon } from "../components";

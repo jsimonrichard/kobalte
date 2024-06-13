@@ -1,15 +1,15 @@
-# @kobalte/core
+# @trellis-app/kobalte-core
 
 Unstyled components and primitives for building accessible web apps and design systems with SolidJS.
 
 ## Installation
 
 ```bash
-npm install @kobalte/core
+npm install @trellis-app/kobalte-core
 # or
-yarn add @kobalte/core
+yarn add @trellis-app/kobalte-core
 # or
-pnpm add @kobalte/core
+pnpm add @trellis-app/kobalte-core
 ```
 
 ## Documentation

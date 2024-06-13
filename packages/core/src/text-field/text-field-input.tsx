@@ -6,7 +6,10 @@
  * https://github.com/adobe/react-spectrum/blob/0af91c08c745f4bb35b6ad4932ca17a0d85dd02c/packages/@react-aria/textfield/src/useTextField.ts
  */
 
-import { composeEventHandlers, mergeDefaultProps } from "@kobalte/utils";
+import {
+	composeEventHandlers,
+	mergeDefaultProps,
+} from "@trellis-app/kobalte-utils";
 import { JSX, ValidComponent, splitProps } from "solid-js";
 
 import {

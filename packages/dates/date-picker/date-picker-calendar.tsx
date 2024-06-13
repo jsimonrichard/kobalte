@@ -1,4 +1,7 @@
-import { OverrideComponentProps, mergeDefaultProps } from "@kobalte/utils";
+import {
+	OverrideComponentProps,
+	mergeDefaultProps,
+} from "@trellis-app/kobalte-utils";
 
 import { CalendarRoot } from "../calendar/calendar-root";
 import { useFormControlContext } from "../form-control";

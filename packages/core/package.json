@@ -1,5 +1,5 @@
 {
-  "name": "@kobalte/core",
+  "name": "@trellis-app/kobalte-core",
   "version": "0.13.3",
   "private": false,
   "description": "Unstyled components and primitives for building accessible web apps and design systems with SolidJS.",
@@ -70,14 +70,14 @@
     "@floating-ui/dom": "^1.5.1",
     "@internationalized/date": "^3.4.0",
     "@internationalized/number": "^3.2.1",
-    "@kobalte/utils": "^0.9.0",
+    "@trellis-app/kobalte-utils": "^0.9.0",
     "clsx": "2.0.0",
     "solid-presence": "^0.1.6",
     "solid-prevent-scroll": "^0.1.4",
     "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {
-    "@kobalte/tests": "^0.6.0",
+    "@trellis-app/kobalte-tests": "^0.6.0",
     "esbuild-plugin-solid": "^0.5.0",
     "tsup": "7.2.0"
   },

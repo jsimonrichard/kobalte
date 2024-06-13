@@ -1,4 +1,4 @@
-import { Orientation } from "@kobalte/utils";
+import { Orientation } from "@trellis-app/kobalte-utils";
 import { Accessor, Setter, createContext, useContext } from "solid-js";
 
 export interface MenubarDataSet {

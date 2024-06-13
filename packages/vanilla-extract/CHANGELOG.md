@@ -1,4 +1,4 @@
-# @kobalte/vanilla-extract
+# @trellis-app/kobalte-vanilla-extract
 
 ## 0.5.0
 

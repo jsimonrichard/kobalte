@@ -1,4 +1,4 @@
-import { HoverCard } from "@kobalte/core/hover-card";
+import { HoverCard } from "@trellis-app/kobalte-core/hover-card";
 
 import style from "./hover-card.module.css";
 

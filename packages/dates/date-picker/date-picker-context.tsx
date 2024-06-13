@@ -1,5 +1,9 @@
 import { Calendar, DateDuration } from "@internationalized/date";
-import { FocusManager, RangeValue, ValidationState } from "@kobalte/utils";
+import {
+	FocusManager,
+	RangeValue,
+	ValidationState,
+} from "@trellis-app/kobalte-utils";
 import { Accessor, createContext, useContext } from "solid-js";
 
 import { CalendarSelectionMode, DateValue, TimeValue } from "../calendar/types";

@@ -1,4 +1,4 @@
-import { isNumber, isString } from "@kobalte/utils";
+import { isNumber, isString } from "@trellis-app/kobalte-utils";
 
 import { CollectionNode } from "./types";
 

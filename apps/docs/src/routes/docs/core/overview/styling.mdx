@@ -16,7 +16,7 @@ All components and their parts accept a `class` prop. This class will be passed 
   <TabsSnippets.Content value="tsx">
     {/* <!-- prettier-ignore-start --> */}
     ```tsx
-    import { Popover as KPopover } from "@kobalte/core";
+    import { Popover as KPopover } from "@trellis-app/kobalte-core";
     import "./style.css";
 
     export const Popover = () => {
@@ -77,7 +77,7 @@ You can style a component state by targeting the `data-*` attributes added by Ko
 
 ## Using the TailwindCSS plugin
 
-If you are using [TailwindCSS](https://tailwindcss.com/), you can use the `@kobalte/tailwindcss` plugin to target Kobalte's `data-*` attributes with modifiers like `ui-expanded:*`.
+If you are using [TailwindCSS](https://tailwindcss.com/), you can use the `@trellis-app/kobalte-tailwindcss` plugin to target Kobalte's `data-*` attributes with modifiers like `ui-expanded:*`.
 
 ### Installation
 
@@ -90,21 +90,21 @@ If you are using [TailwindCSS](https://tailwindcss.com/), you can use the `@koba
   <TabsSnippets.Content value="npm">
     {/* <!-- prettier-ignore-start --> */}
     ```bash
-    npm install @kobalte/tailwindcss
+    npm install @trellis-app/kobalte-tailwindcss
     ```
     {/* <!-- prettier-ignore-end --> */}
   </TabsSnippets.Content>
   <TabsSnippets.Content value="yarn">
     {/* <!-- prettier-ignore-start --> */}
     ```bash
-    yarn add @kobalte/tailwindcss
+    yarn add @trellis-app/kobalte-tailwindcss
     ```
     {/* <!-- prettier-ignore-end --> */}
   </TabsSnippets.Content>
   <TabsSnippets.Content value="pnpm">
     {/* <!-- prettier-ignore-start --> */}
     ```bash
-    pnpm add @kobalte/tailwindcss
+    pnpm add @trellis-app/kobalte-tailwindcss
     ```
     {/* <!-- prettier-ignore-end --> */}
   </TabsSnippets.Content>
@@ -123,10 +123,10 @@ module.exports = {
 	},
 	plugins: [
 		// default prefix is "ui"
-		require("@kobalte/tailwindcss"),
+		require("@trellis-app/kobalte-tailwindcss"),
 
 		// or with a custom prefix:
-		require("@kobalte/tailwindcss")({ prefix: "kb" }),
+		require("@trellis-app/kobalte-tailwindcss")({ prefix: "kb" }),
 	],
 };
 ```
@@ -134,7 +134,7 @@ module.exports = {
 Style your component:
 
 ```tsx
-import { Popover as KPopover } from "@kobalte/core/popover";
+import { Popover as KPopover } from "@trellis-app/kobalte-core/popover";
 
 export const Popover = () => (
 	<KPopover>
@@ -167,7 +167,7 @@ It's also possible to use _inverse modifiers_ in the form of `ui-not-*`, _group 
 
 ## Using the Vanilla Extract plugin
 
-If you are using [Vanilla Extract](https://vanilla-extract.style/), you can use the `@kobalte/vanilla-extract` plugin to target Kobalte's `data-*` attributes.
+If you are using [Vanilla Extract](https://vanilla-extract.style/), you can use the `@trellis-app/kobalte-vanilla-extract` plugin to target Kobalte's `data-*` attributes.
 
 ### Installation
 
@@ -180,21 +180,21 @@ If you are using [Vanilla Extract](https://vanilla-extract.style/), you can use 
   <TabsSnippets.Content value="npm">
     {/* <!-- prettier-ignore-start --> */}
     ```bash
-    npm install @kobalte/vanilla-extract
+    npm install @trellis-app/kobalte-vanilla-extract
     ```
     {/* <!-- prettier-ignore-end --> */}
   </TabsSnippets.Content>
   <TabsSnippets.Content value="yarn">
     {/* <!-- prettier-ignore-start --> */}
     ```bash
-    yarn add @kobalte/vanilla-extract
+    yarn add @trellis-app/kobalte-vanilla-extract
     ```
     {/* <!-- prettier-ignore-end --> */}
   </TabsSnippets.Content>
   <TabsSnippets.Content value="pnpm">
     {/* <!-- prettier-ignore-start --> */}
     ```bash
-    pnpm add @kobalte/vanilla-extract
+    pnpm add @trellis-app/kobalte-vanilla-extract
     ```
     {/* <!-- prettier-ignore-end --> */}
   </TabsSnippets.Content>
@@ -206,7 +206,7 @@ Use the `componentStateStyles` utility function to create vanilla-extract styles
 
 ```ts
 // styles.css
-import { componentStateStyles } from "@kobalte/vanilla-extract";
+import { componentStateStyles } from "@trellis-app/kobalte-vanilla-extract";
 import { style } from "@vanilla-extract/css";
 
 const button = style([
@@ -239,7 +239,7 @@ const button = style([
 Then apply your styles to the component:
 
 ```tsx
-import { Button } from "@kobalte/core/button";
+import { Button } from "@trellis-app/kobalte-core/button";
 import { button } from "./styles.css";
 
 export const MyButton = () => <Button class={button}>...</Button>;
@@ -254,7 +254,7 @@ The [UnoCSS preset](https://github.com/zirbest/unocss-preset-primitives#kobalte)
 Extending a component is done the same way you extend any SolidJS component.
 
 ```tsx
-import { Popover as KPopover } from "@kobalte/core/popover";
+import { Popover as KPopover } from "@trellis-app/kobalte-core/popover";
 import { ComponentProps } from "solid-js";
 
 export const PopoverTrigger = (props: ComponentProps<typeof KPopover.Trigger>) => {

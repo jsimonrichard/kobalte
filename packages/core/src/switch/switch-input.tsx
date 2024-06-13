@@ -13,7 +13,7 @@ import {
 	mergeDefaultProps,
 	mergeRefs,
 	visuallyHiddenStyles,
-} from "@kobalte/utils";
+} from "@trellis-app/kobalte-utils";
 import { ComponentProps, JSX, ValidComponent, splitProps } from "solid-js";
 
 import {

@@ -1,4 +1,4 @@
-import { MaybeAccessor, access } from "@kobalte/utils";
+import { MaybeAccessor, access } from "@trellis-app/kobalte-utils";
 import { Accessor } from "solid-js";
 
 import { createControllableBooleanSignal } from "../create-controllable-signal";

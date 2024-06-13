@@ -1,4 +1,7 @@
-import { OverrideComponentProps, mergeDefaultProps } from "@kobalte/utils";
+import {
+	OverrideComponentProps,
+	mergeDefaultProps,
+} from "@trellis-app/kobalte-utils";
 import { Component, ValidComponent, splitProps } from "solid-js";
 import { ElementOf, PolymorphicProps } from "../polymorphic";
 

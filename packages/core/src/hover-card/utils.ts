@@ -7,7 +7,7 @@
  * https://github.com/ariakit/ariakit/blob/f2a96973de523d67e41eec983263936c489ef3e2/packages/ariakit/src/hovercard/__utils/debug-polygon.ts
  */
 
-import { Polygon } from "@kobalte/utils";
+import { Polygon } from "@trellis-app/kobalte-utils";
 
 import { BasePlacement, Placement } from "../popper/utils";
 

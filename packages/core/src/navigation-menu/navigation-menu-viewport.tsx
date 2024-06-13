@@ -1,4 +1,8 @@
-import { Orientation, composeEventHandlers, mergeRefs } from "@kobalte/utils";
+import {
+	Orientation,
+	composeEventHandlers,
+	mergeRefs,
+} from "@trellis-app/kobalte-utils";
 import {
 	Component,
 	JSX,

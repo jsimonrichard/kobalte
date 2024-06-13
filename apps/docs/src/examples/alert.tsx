@@ -1,4 +1,4 @@
-import { Alert } from "@kobalte/core/alert";
+import { Alert } from "@trellis-app/kobalte-core/alert";
 
 import style from "./alert.module.css";
 

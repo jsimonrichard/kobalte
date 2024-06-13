@@ -8,11 +8,11 @@ Displays a menu located at the pointer, triggered by a right-click or a long-pre
 ## Import
 
 ```ts
-import { ContextMenu } from "@kobalte/core/context-menu";
+import { ContextMenu } from "@trellis-app/kobalte-core/context-menu";
 // or
-import { Root, Trigger, ... } from "@kobalte/core/context-menu";
+import { Root, Trigger, ... } from "@trellis-app/kobalte-core/context-menu";
 // or (deprecated)
-import { ContextMenu } from "@kobalte/core";
+import { ContextMenu } from "@trellis-app/kobalte-core";
 ```
 
 ## Features
@@ -118,7 +118,7 @@ The checkable menu item consists of:
   {/* <!-- prettier-ignore-start --> */}
   <TabsSnippets.Content value="index.tsx">
     ```tsx
-		import { ContextMenu } from "@kobalte/core/context-menu";
+		import { ContextMenu } from "@trellis-app/kobalte-core/context-menu";
     import { createSignal } from "solid-js";
     import { CheckIcon, ChevronRightIcon, DotFilledIcon } from "some-icon-library";
     import "./style.css";
@@ -406,7 +406,7 @@ We expose a CSS custom property `--kb-popper-content-transform-origin` which can
 
 ### ContextMenu
 
-`ContextMenu` is equivalent to the `Root` import from `@kobalte/core/context-menu` (and deprecated `ContextMenu.Root`).
+`ContextMenu` is equivalent to the `Root` import from `@trellis-app/kobalte-core/context-menu` (and deprecated `ContextMenu.Root`).
 
 | Prop          | Description                                                                                                                                                                                                                                                                                                                                    |
 | :------------ | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

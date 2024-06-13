@@ -2,8 +2,8 @@ import {
 	ConfigColorMode,
 	MaybeConfigColorMode,
 	useColorMode,
-} from "@kobalte/core/color-mode";
-import { Select } from "@kobalte/core/select";
+} from "@trellis-app/kobalte-core/color-mode";
+import { Select } from "@trellis-app/kobalte-core/select";
 import { JSX, createSignal, onMount } from "solid-js";
 
 import { DesktopIcon, MoonIcon, SunIcon } from "./icons";

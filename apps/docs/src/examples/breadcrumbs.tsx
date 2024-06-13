@@ -1,4 +1,4 @@
-import { Breadcrumbs } from "@kobalte/core/breadcrumbs";
+import { Breadcrumbs } from "@trellis-app/kobalte-core/breadcrumbs";
 
 import { ChevronRightIcon } from "../components";
 import style from "./breadcrumbs.module.css";

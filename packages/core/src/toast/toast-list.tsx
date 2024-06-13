@@ -19,7 +19,7 @@ import {
 	getDocument,
 	getWindow,
 	mergeRefs,
-} from "@kobalte/utils";
+} from "@trellis-app/kobalte-utils";
 import {
 	For,
 	JSX,

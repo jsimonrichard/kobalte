@@ -1,4 +1,4 @@
-import { Progress } from "@kobalte/core/progress";
+import { Progress } from "@trellis-app/kobalte-core/progress";
 
 import style from "./progress.module.css";
 

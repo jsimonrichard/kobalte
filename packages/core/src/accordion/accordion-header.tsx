@@ -1,4 +1,4 @@
-import { OverrideComponentProps } from "@kobalte/utils";
+import { OverrideComponentProps } from "@trellis-app/kobalte-utils";
 import { ValidComponent } from "solid-js";
 
 import {

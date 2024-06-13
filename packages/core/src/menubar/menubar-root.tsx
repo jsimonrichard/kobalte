@@ -13,7 +13,7 @@ import {
 	createGenerateId,
 	mergeDefaultProps,
 	mergeRefs,
-} from "@kobalte/utils";
+} from "@trellis-app/kobalte-utils";
 import {
 	Accessor,
 	Setter,

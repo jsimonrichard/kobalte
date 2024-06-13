@@ -1,4 +1,4 @@
-import { Pagination } from "@kobalte/core/pagination";
+import { Pagination } from "@trellis-app/kobalte-core/pagination";
 
 import { createSignal } from "solid-js";
 import style from "./pagination.module.css";

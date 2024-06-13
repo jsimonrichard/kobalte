@@ -1,4 +1,4 @@
-import { Toast, toaster } from "@kobalte/core/toast";
+import { Toast, toaster } from "@trellis-app/kobalte-core/toast";
 
 import { CrossIcon } from "../components";
 import style from "./toast.module.css";

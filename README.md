@@ -10,13 +10,13 @@ A UI toolkit for building accessible web apps and design systems with SolidJS.
 
 | Name                                                  |                                     Version                                      | Description                                                                                                            |
 | :---------------------------------------------------- | :------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------- |
-| [@kobalte/core](/packages/core)                       |            [![core-npm]](https://www.npmjs.com/package/@kobalte/core)            | Unstyled components and primitives for building accessible web apps and design systems.                                |
-| [@kobalte/tailwindcss](/packages/tailwindcss)         |     [![tailwindcss-npm]](https://www.npmjs.com/package/@kobalte/tailwindcss)     | A TailwindCSS plugin for styling Kobalte components states `data-*` attributes by using modifiers like `ui-expanded:*` |
-| [@kobalte/vanilla-extract](/packages/vanilla-extract) | [![vanilla-extract-npm]](https://www.npmjs.com/package/@kobalte/vanilla-extract) | A Vanilla Extract plugin for styling Kobalte components states `data-*` attributes by using an utility function.       |
+| [@trellis-app/kobalte-core](/packages/core)                       |            [![core-npm]](https://www.npmjs.com/package/@trellis-app/kobalte-core)            | Unstyled components and primitives for building accessible web apps and design systems.                                |
+| [@trellis-app/kobalte-tailwindcss](/packages/tailwindcss)         |     [![tailwindcss-npm]](https://www.npmjs.com/package/@trellis-app/kobalte-tailwindcss)     | A TailwindCSS plugin for styling Kobalte components states `data-*` attributes by using modifiers like `ui-expanded:*` |
+| [@trellis-app/kobalte-vanilla-extract](/packages/vanilla-extract) | [![vanilla-extract-npm]](https://www.npmjs.com/package/@trellis-app/kobalte-vanilla-extract) | A Vanilla Extract plugin for styling Kobalte components states `data-*` attributes by using an utility function.       |
 
-[core-npm]: https://img.shields.io/npm/v/@kobalte/core
-[tailwindcss-npm]: https://img.shields.io/npm/v/@kobalte/tailwindcss
-[vanilla-extract-npm]: https://img.shields.io/npm/v/@kobalte/vanilla-extract
+[core-npm]: https://img.shields.io/npm/v/@trellis-app/kobalte-core
+[tailwindcss-npm]: https://img.shields.io/npm/v/@trellis-app/kobalte-tailwindcss
+[vanilla-extract-npm]: https://img.shields.io/npm/v/@trellis-app/kobalte-vanilla-extract
 
 ## Documentation
 

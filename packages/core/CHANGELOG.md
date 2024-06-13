@@ -1,4 +1,4 @@
-# @kobalte/core
+# @trellis-app/kobalte-core
 
 ## 0.13.3
 
@@ -130,7 +130,7 @@
     order ([#337](https://github.com/kobaltedev/kobalte/pull/337))
   - Combobox: pass virtualized to listbox ([#341](https://github.com/kobaltedev/kobalte/pull/341))
 
-  ## @kobalte/tests
+  ## @trellis-app/kobalte-tests
 
   Use vitest
 
@@ -200,7 +200,7 @@
 ### Patch Changes
 
 - Updated dependencies [fb427bf]
-  - @kobalte/utils@0.9.0
+  - @trellis-app/kobalte-utils@0.9.0
 
 ## 0.10.0
 
@@ -211,7 +211,7 @@
 ### Patch Changes
 
 - Updated dependencies [d0e2414]
-  - @kobalte/utils@0.8.0
+  - @trellis-app/kobalte-utils@0.8.0
 
 ## 0.9.8
 
@@ -231,7 +231,7 @@
 
 - 2ad7923: fix #213, #214
 - Updated dependencies [2ad7923]
-  - @kobalte/utils@0.7.2
+  - @trellis-app/kobalte-utils@0.7.2
 
 ## 0.9.5
 
@@ -264,9 +264,9 @@
 
 ### Patch Changes
 
-- 1b87fc6: fix exports in `@kobalte/utils`
+- 1b87fc6: fix exports in `@trellis-app/kobalte-utils`
 - Updated dependencies [1b87fc6]
-  - @kobalte/utils@0.7.1
+  - @trellis-app/kobalte-utils@0.7.1
 
 ## 0.9.1
 
@@ -318,7 +318,7 @@
 ### Patch Changes
 
 - Updated dependencies [9b52a46]
-  - @kobalte/utils@0.7.0
+  - @trellis-app/kobalte-utils@0.7.0
 
 ## 0.8.2
 
@@ -378,7 +378,7 @@
 
 - 81d2e40: fix: nexgen ts module resolutions
 - Updated dependencies [81d2e40]
-  - @kobalte/utils@0.6.1
+  - @trellis-app/kobalte-utils@0.6.1
 
 ## 0.7.1
 
@@ -395,7 +395,7 @@
 ### Patch Changes
 
 - Updated dependencies [0a1b042]
-  - @kobalte/utils@0.6.0
+  - @trellis-app/kobalte-utils@0.6.0
 
 ## 0.6.2
 
@@ -409,7 +409,7 @@
 
 - 056ed63: Add `data-closed` attribute.
 - Updated dependencies [056ed63]
-  - @kobalte/utils@0.5.1
+  - @trellis-app/kobalte-utils@0.5.1
 
 ## 0.6.0
 
@@ -420,7 +420,7 @@
 ### Patch Changes
 
 - Updated dependencies [975d526]
-  - @kobalte/utils@0.5.0
+  - @trellis-app/kobalte-utils@0.5.0
 
 ## 0.5.0
 
@@ -436,7 +436,7 @@
 ### Patch Changes
 
 - Updated dependencies [3b9d8de]
-  - @kobalte/utils@0.4.0
+  - @trellis-app/kobalte-utils@0.4.0
 
 ## 0.4.0
 
@@ -459,7 +459,7 @@
 ### Patch Changes
 
 - Updated dependencies [828eba6]
-  - @kobalte/utils@0.3.0
+  - @trellis-app/kobalte-utils@0.3.0
 
 ## 0.2.0
 
@@ -471,7 +471,7 @@
 ### Patch Changes
 
 - Updated dependencies [b2ecae7]
-  - @kobalte/utils@0.2.0
+  - @trellis-app/kobalte-utils@0.2.0
 
 ## 0.1.0
 
@@ -482,4 +482,4 @@
 ### Patch Changes
 
 - Updated dependencies [bb44c6a]
-  - @kobalte/utils@0.1.0
+  - @trellis-app/kobalte-utils@0.1.0

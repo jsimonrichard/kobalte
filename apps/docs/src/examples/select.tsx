@@ -1,4 +1,4 @@
-import { Select } from "@kobalte/core/select";
+import { Select } from "@trellis-app/kobalte-core/select";
 import { createVirtualizer } from "@tanstack/solid-virtual";
 import { For, createSignal } from "solid-js";
 

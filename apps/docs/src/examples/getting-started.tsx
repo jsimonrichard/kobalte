@@ -1,4 +1,4 @@
-import { Popover } from "@kobalte/core/popover";
+import { Popover } from "@trellis-app/kobalte-core/popover";
 
 import { CrossIcon } from "../components";
 import style from "./popover.module.css";

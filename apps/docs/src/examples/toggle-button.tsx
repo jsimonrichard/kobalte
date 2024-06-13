@@ -1,4 +1,4 @@
-import { ToggleButton } from "@kobalte/core/toggle-button";
+import { ToggleButton } from "@trellis-app/kobalte-core/toggle-button";
 import { Show, createSignal } from "solid-js";
 
 import { VolumeOffIcon, VolumeOnIcon } from "../components";

@@ -9,11 +9,11 @@ A visually persistent menu common in desktop applications that provides quick ac
 ## Import
 
 ```ts
-import { Menubar } from "@kobalte/core/menubar";
+import { Menubar } from "@trellis-app/kobalte-core/menubar";
 // or
-import { Root, Menu, ... } from "@kobalte/core/menubar";
+import { Root, Menu, ... } from "@trellis-app/kobalte-core/menubar";
 // or (deprecated)
-import { Menubar } from "@kobalte/core";
+import { Menubar } from "@trellis-app/kobalte-core";
 ```
 
 ## Features
@@ -124,7 +124,7 @@ The checkable menu item consists of:
   {/* <!-- prettier-ignore-start --> */}
   <TabsSnippets.Content value="index.tsx">
     ```tsx
-		import { Menubar } from "@kobalte/core/menubar";
+		import { Menubar } from "@trellis-app/kobalte-core/menubar";
     import { createSignal } from "solid-js";
     import { CheckIcon, ChevronRightIcon, DotFilledIcon } from "some-icon-library";
     import "./style.css";
@@ -563,7 +563,7 @@ We expose a CSS custom property `--kb-menu-content-transform-origin` which can b
 
 ### Menubar
 
-`Menubar` is equivalent to the `Root` import from `@kobalte/core/menubar` (and deprecated `Menubar.Root`).
+`Menubar` is equivalent to the `Root` import from `@trellis-app/kobalte-core/menubar` (and deprecated `Menubar.Root`).
 
 | Prop          | Description                                                                                                                            |
 | :------------ | :------------------------------------------------------------------------------------------------------------------------------------- |

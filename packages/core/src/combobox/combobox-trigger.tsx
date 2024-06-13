@@ -12,7 +12,7 @@ import {
 	callHandler,
 	mergeDefaultProps,
 	mergeRefs,
-} from "@kobalte/utils";
+} from "@trellis-app/kobalte-utils";
 import { Component, JSX, ValidComponent, splitProps } from "solid-js";
 
 import * as Button from "../button";

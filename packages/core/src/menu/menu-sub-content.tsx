@@ -12,7 +12,7 @@ import {
 	callHandler,
 	contains,
 	focusWithoutScrolling,
-} from "@kobalte/utils";
+} from "@trellis-app/kobalte-utils";
 import { Component, JSX, ValidComponent, splitProps } from "solid-js";
 
 import { Direction, useLocale } from "../i18n";

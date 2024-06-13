@@ -1,4 +1,4 @@
-import type { Orientation } from "@kobalte/utils";
+import type { Orientation } from "@trellis-app/kobalte-utils";
 import {
 	MenuCheckboxItem as CheckboxItem,
 	type MenuCheckboxItemCommonProps as NavigationMenuCheckboxItemCommonProps,

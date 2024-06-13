@@ -6,7 +6,11 @@
  * https://github.com/adobe/react-spectrum/blob/6b51339cca0b8344507d3c8e81e7ad05d6e75f9b/packages/@react-aria/tabs/src/useTabPanel.ts
  */
 
-import { Orientation, getFocusableTreeWalker, mergeRefs } from "@kobalte/utils";
+import {
+	Orientation,
+	getFocusableTreeWalker,
+	mergeRefs,
+} from "@trellis-app/kobalte-utils";
 import {
 	Show,
 	ValidComponent,

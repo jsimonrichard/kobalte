@@ -6,7 +6,10 @@
  * https://github.com/ariakit/ariakit/blob/232bc79018ec20967fec1e097a9474aba3bb5be7/packages/ariakit/src/popover/popover-state.ts
  */
 
-import { createGenerateId, mergeDefaultProps } from "@kobalte/utils";
+import {
+	createGenerateId,
+	mergeDefaultProps,
+} from "@trellis-app/kobalte-utils";
 import {
 	Accessor,
 	ParentProps,

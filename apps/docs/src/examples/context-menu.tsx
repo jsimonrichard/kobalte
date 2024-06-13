@@ -1,4 +1,4 @@
-import { ContextMenu } from "@kobalte/core/context-menu";
+import { ContextMenu } from "@trellis-app/kobalte-core/context-menu";
 import { createSignal } from "solid-js";
 
 import { CheckIcon, ChevronRightIcon, DotFilledIcon } from "../components";

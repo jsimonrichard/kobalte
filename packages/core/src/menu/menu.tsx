@@ -10,7 +10,7 @@ import {
 	focusWithoutScrolling,
 	mergeDefaultProps,
 	removeItemFromArray,
-} from "@kobalte/utils";
+} from "@trellis-app/kobalte-utils";
 import {
 	Accessor,
 	ParentProps,

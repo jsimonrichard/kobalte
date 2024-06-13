@@ -2,7 +2,7 @@ import {
 	callHandler,
 	mergeDefaultProps,
 	visuallyHiddenStyles,
-} from "@kobalte/utils";
+} from "@trellis-app/kobalte-utils";
 import {
 	ComponentProps,
 	JSX,

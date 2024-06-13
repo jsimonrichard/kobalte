@@ -1,4 +1,4 @@
-import { Link } from "@kobalte/core/link";
+import { Link } from "@trellis-app/kobalte-core/link";
 
 import style from "./link.module.css";
 

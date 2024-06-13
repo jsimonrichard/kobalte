@@ -5,7 +5,7 @@
  * Credits to the Mantine team:
  * https://github.com/mantinedev/mantine/blob/master/src/mantine-core/src/components/Skeleton/Skeleton.tsx
  */
-import { mergeDefaultProps } from "@kobalte/utils";
+import { mergeDefaultProps } from "@trellis-app/kobalte-utils";
 import { JSX, ValidComponent, createUniqueId, splitProps } from "solid-js";
 import { ElementOf, Polymorphic, PolymorphicProps } from "../polymorphic";
 

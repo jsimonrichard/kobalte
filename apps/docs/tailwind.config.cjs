@@ -32,6 +32,6 @@ module.exports = {
 	},
 	plugins: [
 		require("@tailwindcss/typography"),
-		require("@kobalte/tailwindcss"),
+		require("@trellis-app/kobalte-tailwindcss"),
 	],
 };

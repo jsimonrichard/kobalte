@@ -1,4 +1,4 @@
-import { Checkbox } from "@kobalte/core/checkbox";
+import { Checkbox } from "@trellis-app/kobalte-core/checkbox";
 import { clsx } from "clsx";
 import { createSignal } from "solid-js";
 

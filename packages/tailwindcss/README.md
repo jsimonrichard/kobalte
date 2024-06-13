@@ -1,15 +1,15 @@
-# @kobalte/tailwindcss
+# @trellis-app/kobalte-tailwindcss
 
 A TailwindCSS plugin for styling Kobalte components with `data-*` attributes by using modifiers like `ui-expanded:*`.
 
 ## Installation
 
 ```bash
-npm install -D @kobalte/tailwindcss
+npm install -D @trellis-app/kobalte-tailwindcss
 # or
-yarn add -D @kobalte/tailwindcss
+yarn add -D @trellis-app/kobalte-tailwindcss
 # or
-pnpm add -D @kobalte/tailwindcss
+pnpm add -D @trellis-app/kobalte-tailwindcss
 ```
 
 ## Usage
@@ -25,10 +25,10 @@ module.exports = {
 	},
 	plugins: [
 		// default prefix is "ui"
-		require("@kobalte/tailwindcss"),
+		require("@trellis-app/kobalte-tailwindcss"),
 
 		// or with a custom prefix:
-		require("@kobalte/tailwindcss")({ prefix: "kb" }),
+		require("@trellis-app/kobalte-tailwindcss")({ prefix: "kb" }),
 	],
 };
 ```
@@ -36,7 +36,7 @@ module.exports = {
 Style your component:
 
 ```tsx
-import { Popover } from "@kobalte/core";
+import { Popover } from "@trellis-app/kobalte-core";
 
 export const MyPopover = () => (
 	<Popover>

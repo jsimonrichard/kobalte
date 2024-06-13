@@ -1,4 +1,4 @@
-import { OverrideComponentProps } from "@kobalte/utils";
+import { OverrideComponentProps } from "@trellis-app/kobalte-utils";
 import { Accessor, Index, JSX, createMemo, splitProps } from "solid-js";
 
 import { Polymorphic } from "../polymorphic";

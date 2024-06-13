@@ -7,7 +7,7 @@
 			"outputs": ["dist/**"]
 		},
 		"test": {
-			"dependsOn": ["@kobalte/tests#build", "@kobalte/utils#build"]
+			"dependsOn": ["@trellis-app/kobalte-tests#build", "@trellis-app/kobalte-utils#build"]
 		},
 		"typecheck": {
 			"cache": false

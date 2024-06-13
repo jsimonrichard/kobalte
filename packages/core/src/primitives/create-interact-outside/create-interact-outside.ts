@@ -20,7 +20,7 @@ import {
 	getDocument,
 	isCtrlKey,
 	noop,
-} from "@kobalte/utils";
+} from "@trellis-app/kobalte-utils";
 import { Accessor, createEffect, onCleanup } from "solid-js";
 import { isServer } from "solid-js/web";
 

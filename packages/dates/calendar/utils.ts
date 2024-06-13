@@ -26,7 +26,7 @@ import {
 	startOfYear,
 	toCalendarDate,
 } from "@internationalized/date";
-import { RangeValue } from "@kobalte/utils";
+import { RangeValue } from "@trellis-app/kobalte-utils";
 
 import { createDateFormatter } from "../i18n";
 import { CalendarIntlTranslations } from "./calendar.intl";

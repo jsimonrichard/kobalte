@@ -1,4 +1,4 @@
-import { mergeRefs } from "@kobalte/utils";
+import { mergeRefs } from "@trellis-app/kobalte-utils";
 import { Component, JSX, Show, ValidComponent, splitProps } from "solid-js";
 
 import {

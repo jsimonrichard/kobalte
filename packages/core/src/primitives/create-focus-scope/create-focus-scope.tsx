@@ -24,7 +24,7 @@ import {
 	isFocusable,
 	removeItemFromArray,
 	visuallyHiddenStyles,
-} from "@kobalte/utils";
+} from "@trellis-app/kobalte-utils";
 import { Accessor, createEffect, createSignal, onCleanup } from "solid-js";
 import { isServer } from "solid-js/web";
 

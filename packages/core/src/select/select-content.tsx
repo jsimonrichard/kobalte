@@ -2,7 +2,7 @@ import {
 	OverrideComponentProps,
 	focusWithoutScrolling,
 	mergeRefs,
-} from "@kobalte/utils";
+} from "@trellis-app/kobalte-utils";
 import { Component, JSX, Show, ValidComponent, splitProps } from "solid-js";
 
 import createPreventScroll from "solid-prevent-scroll";

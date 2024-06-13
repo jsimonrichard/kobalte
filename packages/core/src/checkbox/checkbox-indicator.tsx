@@ -1,4 +1,4 @@
-import { mergeDefaultProps, mergeRefs } from "@kobalte/utils";
+import { mergeDefaultProps, mergeRefs } from "@trellis-app/kobalte-utils";
 import {
 	Show,
 	ValidComponent,

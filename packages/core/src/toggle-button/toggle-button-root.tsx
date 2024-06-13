@@ -16,7 +16,7 @@ import {
 	OverrideComponentProps,
 	callHandler,
 	isFunction,
-} from "@kobalte/utils";
+} from "@trellis-app/kobalte-utils";
 import {
 	Accessor,
 	Component,

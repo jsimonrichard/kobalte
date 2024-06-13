@@ -7,7 +7,7 @@ All component parts that render a DOM element have an `as` prop.
 For simple use cases the `as` prop can be used, either with native HTML elements or custom Solid components:
 
 ```tsx {8, 13}
-import { Tabs } from "@kobalte/core/tabs";
+import { Tabs } from "@trellis-app/kobalte-core/tabs";
 import { MyCustomButton } from "./components";
 
 function App() {
@@ -43,7 +43,7 @@ When using this pattern the following rules apply to the callback:
 - You should set your event handlers on the parent and not inside your callback.
 
 ```tsx {17}
-import { Tabs } from "@kobalte/core/tabs";
+import { Tabs } from "@trellis-app/kobalte-core/tabs";
 import { MyCustomButton } from "./components";
 
 function App() {
@@ -75,8 +75,8 @@ function App() {
 You can optionally use a type helper to get the exact types passed to your callback:
 
 ```tsx {6-9}
-import { Tabs, TabsTriggerOptions, TabsTriggerRenderProps } from "@kobalte/core/tabs";
-import { PolymorphicCallbackProps } from "@kobalte/core/polymorphic";
+import { Tabs, TabsTriggerOptions, TabsTriggerRenderProps } from "@trellis-app/kobalte-core/tabs";
+import { PolymorphicCallbackProps } from "@trellis-app/kobalte-core/polymorphic";
 
 <Tabs.Trigger
 	value="one"
@@ -147,8 +147,8 @@ If you're writing a custom component and want to expose Kobalte's `as` prop to t
 and keep proper typing, be sure to use `PolymorphicProps<T, ComponentProps>` for your props type.
 
 ```tsx
-import { Tabs, TabsTriggerProps } from "@kobalte/core/tabs";
-import { PolymorphicProps } from "@kobalte/core/polymorphic";
+import { Tabs, TabsTriggerProps } from "@trellis-app/kobalte-core/tabs";
+import { PolymorphicProps } from "@trellis-app/kobalte-core/polymorphic";
 
 // Optionally extend `TabsTriggerProps` if you wish to
 // expose Kobalte props to your end user.
@@ -179,7 +179,7 @@ function CustomTabsTrigger<T extends ValidComponent = "button">(
 
 If you do not wish to allow changing the element type, you can simplify your types by making
 props: `OverrideComponentProps<"button", CustomProps>`, replace `"button"` with the correct
-tagname for other components, imported from `"@kobalte/utils"`.
+tagname for other components, imported from `"@trellis-app/kobalte-utils"`.
 
 If you also want to export exact types, you can re-export and extends component types:
 
@@ -208,5 +208,5 @@ export function CustomTabsTrigger<T extends ValidComponent = "button">(
 ) {}
 ```
 
-`ElementOf<T>` is a helper from `"@kobalte/core/polymorphic"` that converts a tag name into its element
+`ElementOf<T>` is a helper from `"@trellis-app/kobalte-core/polymorphic"` that converts a tag name into its element
 (e.g. `ElementOf<"button"> = HTMLButtonElement`).

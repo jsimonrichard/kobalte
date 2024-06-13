@@ -7,7 +7,7 @@
  */
 
 import { isToday } from "@internationalized/date";
-import { OverrideComponentProps } from "@kobalte/utils";
+import { OverrideComponentProps } from "@trellis-app/kobalte-utils";
 import { createMemo, splitProps } from "solid-js";
 
 import { Polymorphic } from "../polymorphic";

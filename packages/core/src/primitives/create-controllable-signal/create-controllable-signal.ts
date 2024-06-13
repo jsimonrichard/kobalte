@@ -1,4 +1,4 @@
-import { accessWith } from "@kobalte/utils";
+import { accessWith } from "@trellis-app/kobalte-utils";
 import { Accessor, createMemo, createSignal, untrack } from "solid-js";
 
 export interface CreateControllableSignalProps<T> {

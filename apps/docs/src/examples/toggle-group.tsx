@@ -1,4 +1,4 @@
-import { ToggleGroup } from "@kobalte/core/toggle-group";
+import { ToggleGroup } from "@trellis-app/kobalte-core/toggle-group";
 
 import { JSXElement, createSignal } from "solid-js";
 import style from "./toggle-group.module.css";

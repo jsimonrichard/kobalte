@@ -1,5 +1,8 @@
-import { NavigationMenu, Orientation } from "@kobalte/core/navigation-menu";
-import { RadioGroup } from "@kobalte/core/radio-group";
+import {
+	NavigationMenu,
+	Orientation,
+} from "@trellis-app/kobalte-core/navigation-menu";
+import { RadioGroup } from "@trellis-app/kobalte-core/radio-group";
 import { For, createSignal } from "solid-js";
 
 import { ChevronDownIcon } from "../components";

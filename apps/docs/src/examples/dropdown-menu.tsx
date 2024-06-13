@@ -1,4 +1,4 @@
-import { DropdownMenu } from "@kobalte/core/dropdown-menu";
+import { DropdownMenu } from "@trellis-app/kobalte-core/dropdown-menu";
 import { createSignal } from "solid-js";
 
 import {

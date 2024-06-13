@@ -1,4 +1,4 @@
-import { Switch } from "@kobalte/core/switch";
+import { Switch } from "@trellis-app/kobalte-core/switch";
 import { createSignal } from "solid-js";
 
 import style from "./switch.module.css";

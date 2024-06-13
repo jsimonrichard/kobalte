@@ -1,4 +1,4 @@
-import { Slider } from "@kobalte/core/slider";
+import { Slider } from "@trellis-app/kobalte-core/slider";
 import { createSignal } from "solid-js";
 import style from "./slider.module.css";
 

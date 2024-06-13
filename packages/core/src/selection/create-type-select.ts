@@ -6,7 +6,7 @@
  * https://github.com/adobe/react-spectrum/blob/8f2f2acb3d5850382ebe631f055f88c704aa7d17/packages/@react-aria/selection/src/useTypeSelect.ts
  */
 
-import { MaybeAccessor, access } from "@kobalte/utils";
+import { MaybeAccessor, access } from "@trellis-app/kobalte-utils";
 import { createSignal } from "solid-js";
 
 import { KeyboardDelegate, MultipleSelectionManager } from "./types";

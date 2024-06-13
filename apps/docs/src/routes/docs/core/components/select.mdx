@@ -19,11 +19,11 @@ Displays a list of options for the user to pick from — triggered by a button.
 ## Import
 
 ```ts
-import { Select } from "@kobalte/core/select";
+import { Select } from "@trellis-app/kobalte-core/select";
 // or
-import { Root, Label, ... } from "@kobalte/core/select";
+import { Root, Label, ... } from "@trellis-app/kobalte-core/select";
 // or (deprecated)
-import { Select } from "@kobalte/core";
+import { Select } from "@trellis-app/kobalte-core";
 ```
 
 ## Features
@@ -95,7 +95,7 @@ The select consists of:
   {/* <!-- prettier-ignore-start --> */}
   <TabsSnippets.Content value="index.tsx">
     ```tsx
-		import { Select } from "@kobalte/core/select";
+		import { Select } from "@trellis-app/kobalte-core/select";
     import { CaretSortIcon, CheckIcon } from "some-icon-library";
     import "./style.css";
 
@@ -734,7 +734,7 @@ While Kobalte doesn't provide any built-in virtual scrolling API, it can easily 
 </Preview>
 
 ```tsx {18-25,31-33,46,80,101}
-import { Select } from "@kobalte/core/select";
+import { Select } from "@trellis-app/kobalte-core/select";
 import { createVirtualizer } from "@tanstack/solid-virtual";
 
 interface Item {
@@ -877,7 +877,7 @@ We expose a CSS custom property `--kb-select-content-transform-origin` which can
 
 ### Select
 
-`Select` is equivalent to the `Root` import from `@kobalte/core/select` (and deprecated `Select.Root`).
+`Select` is equivalent to the `Root` import from `@trellis-app/kobalte-core/select` (and deprecated `Select.Root`).
 
 | Prop                          | Description                                                                                                                                                                                                                                                                                                                                          |
 | :---------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

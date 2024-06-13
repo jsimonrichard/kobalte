@@ -1,4 +1,7 @@
-import { OverrideComponentProps, mergeDefaultProps } from "@kobalte/utils";
+import {
+	OverrideComponentProps,
+	mergeDefaultProps,
+} from "@trellis-app/kobalte-utils";
 import { ValidComponent, createEffect, onCleanup } from "solid-js";
 
 import { ElementOf, Polymorphic, PolymorphicProps } from "../polymorphic";

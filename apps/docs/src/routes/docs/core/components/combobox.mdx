@@ -18,11 +18,11 @@ Combines a text input with a listbox, allowing users to filter a list of options
 ## Import
 
 ```ts
-import { Combobox } from "@kobalte/core/combobox";
+import { Combobox } from "@trellis-app/kobalte-core/combobox";
 // or
-import { Root, Label, ... } from "@kobalte/core/combobox";
+import { Root, Label, ... } from "@trellis-app/kobalte-core/combobox";
 // or (deprecated)
-import { Combobox } from "@kobalte/core";
+import { Combobox } from "@trellis-app/kobalte-core";
 ```
 
 ## Features
@@ -98,7 +98,7 @@ The combobox consists of:
   {/* <!-- prettier-ignore-start --> */}
   <TabsSnippets.Content value="index.tsx">
     ```tsx
-		import { Combobox } from "@kobalte/core/combobox";
+		import { Combobox } from "@trellis-app/kobalte-core/combobox";
     import { CaretSortIcon, CheckIcon } from "some-icon-library";
     import { createSignal } from "solid-js";
     import "./style.css";
@@ -327,7 +327,7 @@ For convenience, we provide 3 built-in filtering mechanism based on substring ma
 A custom filter function can also be passed to the `defaultFilter` prop, it receives _an option and the input value_ as parameters, and should return a `boolean`.
 
 ```tsx {6}
-import { Combobox } from "@kobalte/core/combobox";
+import { Combobox } from "@trellis-app/kobalte-core/combobox";
 
 const ALL_OPTIONS = ["Apple", "Banana", "Blueberry", "Grapes", "Pineapple"];
 
@@ -349,7 +349,7 @@ An initial, uncontrolled value can be provided using the `defaultValue` prop, wh
 </Preview>
 
 ```tsx {8}
-import { Combobox } from "@kobalte/core/combobox";
+import { Combobox } from "@trellis-app/kobalte-core/combobox";
 import { CaretSortIcon, CheckIcon } from "some-icon-library";
 
 const ALL_OPTIONS = ["Apple", "Banana", "Blueberry", "Grapes", "Pineapple"];
@@ -396,7 +396,7 @@ The `value` prop, which accepts a value corresponding with the `options` prop, c
 </Preview>
 
 ```tsx {7,20-21}
-import { Combobox } from "@kobalte/core/combobox";
+import { Combobox } from "@trellis-app/kobalte-core/combobox";
 import { CaretSortIcon, CheckIcon } from "some-icon-library";
 import { createSignal } from "solid-js";
 
@@ -458,7 +458,7 @@ The `Combobox.Description` component can be used to associate additional help te
 </Preview>
 
 ```tsx {27}
-import { Combobox } from "@kobalte/core/combobox";
+import { Combobox } from "@trellis-app/kobalte-core/combobox";
 import { CaretSortIcon, CheckIcon } from "some-icon-library";
 
 const ALL_OPTIONS = ["Apple", "Banana", "Blueberry", "Grapes", "Pineapple"];
@@ -507,7 +507,7 @@ By default, it will render only when the `validationState` prop is set to `inval
 </Preview>
 
 ```tsx {22,41}
-import { Combobox } from "@kobalte/core/combobox";
+import { Combobox } from "@trellis-app/kobalte-core/combobox";
 import { CaretSortIcon, CheckIcon } from "some-icon-library";
 import { createSignal } from "solid-js";
 
@@ -568,7 +568,7 @@ The combobox `name` prop, paired with the `Combobox.HiddenSelect` component, can
 </Preview>
 
 ```tsx {13,25}
-import { Combobox } from "@kobalte/core/combobox";
+import { Combobox } from "@trellis-app/kobalte-core/combobox";
 import { CaretSortIcon, CheckIcon } from "some-icon-library";
 
 const ALL_OPTIONS = ["Apple", "Banana", "Blueberry", "Grapes", "Pineapple"];
@@ -631,7 +631,7 @@ Objects can be used as options instead of plain strings. In this case you have t
 </Preview>
 
 ```tsx {21-24}
-import { Combobox } from "@kobalte/core/combobox";
+import { Combobox } from "@trellis-app/kobalte-core/combobox";
 import { CaretSortIcon, CheckIcon } from "some-icon-library";
 
 interface Fruit {
@@ -697,7 +697,7 @@ Additionally, the `sectionComponent` prop is used to display the option group la
 </Preview>
 
 ```tsx {44}
-import { Combobox } from "@kobalte/core/combobox";
+import { Combobox } from "@trellis-app/kobalte-core/combobox";
 import { CaretSortIcon, CheckIcon } from "some-icon-library";
 
 interface Food {
@@ -788,7 +788,7 @@ In this case `Combobox.Input` can't display the values, instead the `Combobox.Co
 </Preview>
 
 ```tsx {7,12,14-15,30,34,42}
-import { Combobox } from "@kobalte/core/combobox";
+import { Combobox } from "@trellis-app/kobalte-core/combobox";
 import { CaretSortIcon, CheckIcon } from "some-icon-library";
 import { createSignal } from "solid-js";
 
@@ -895,7 +895,7 @@ We expose a CSS custom property `--kb-combobox-content-transform-origin` which c
 
 ### Combobox
 
-`Combobox` is equivalent to the `Root` import from `@kobalte/core/combobox` (and deprecated `Combobox.Root`).
+`Combobox` is equivalent to the `Root` import from `@trellis-app/kobalte-core/combobox` (and deprecated `Combobox.Root`).
 
 | Prop                          | Description                                                                                                                                                                                                                                                                                                                                                                               |
 | :---------------------------- | :---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

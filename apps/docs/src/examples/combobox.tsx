@@ -1,4 +1,4 @@
-import { Combobox } from "@kobalte/core/combobox";
+import { Combobox } from "@trellis-app/kobalte-core/combobox";
 import { For, createSignal } from "solid-js";
 
 import { CaretSortIcon, CheckIcon, CrossIcon } from "../components";

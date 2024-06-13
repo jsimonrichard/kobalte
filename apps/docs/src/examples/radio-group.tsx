@@ -1,4 +1,4 @@
-import { RadioGroup } from "@kobalte/core/radio-group";
+import { RadioGroup } from "@trellis-app/kobalte-core/radio-group";
 import { For, createSignal } from "solid-js";
 
 import style from "./radio-group.module.css";

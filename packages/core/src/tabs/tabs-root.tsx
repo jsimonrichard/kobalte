@@ -7,7 +7,7 @@
  * https://github.com/adobe/react-spectrum/blob/6b51339cca0b8344507d3c8e81e7ad05d6e75f9b/packages/@react-aria/tabs/src/useTabList.ts
  */
 
-import { Orientation, mergeDefaultProps } from "@kobalte/utils";
+import { Orientation, mergeDefaultProps } from "@trellis-app/kobalte-utils";
 import {
 	ValidComponent,
 	createEffect,

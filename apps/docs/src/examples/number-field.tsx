@@ -1,4 +1,4 @@
-import { NumberField } from "@kobalte/core/number-field";
+import { NumberField } from "@trellis-app/kobalte-core/number-field";
 import { createSignal } from "solid-js";
 
 import { ArrowIcon } from "../components";

@@ -1,4 +1,8 @@
-import { callHandler, mergeRefs, visuallyHiddenStyles } from "@kobalte/utils";
+import {
+	callHandler,
+	mergeRefs,
+	visuallyHiddenStyles,
+} from "@trellis-app/kobalte-utils";
 import { ComponentProps, batch, splitProps } from "solid-js";
 
 import { useFormControlContext } from "../form-control";

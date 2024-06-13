@@ -1,4 +1,4 @@
-# @kobalte/utils
+# @trellis-app/kobalte-utils
 
 ## 0.9.0
 
@@ -22,7 +22,7 @@
 
 ### Patch Changes
 
-- 1b87fc6: fix exports in `@kobalte/utils`
+- 1b87fc6: fix exports in `@trellis-app/kobalte-utils`
 
 ## 0.7.0
 

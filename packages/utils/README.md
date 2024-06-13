@@ -1,15 +1,15 @@
-# @kobalte/utils
+# @trellis-app/kobalte-utils
 
 Common utilities and types for Kobalte.
 
 ## Installation
 
 ```bash
-npm install @kobalte/utils
+npm install @trellis-app/kobalte-utils
 # or
-yarn add @kobalte/utils
+yarn add @trellis-app/kobalte-utils
 # or
-pnpm add @kobalte/utils
+pnpm add @trellis-app/kobalte-utils
 ```
 
 ## Documentation

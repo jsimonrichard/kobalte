@@ -1,4 +1,4 @@
-import { Tabs, TabsRootProps } from "@kobalte/core/tabs";
+import { Tabs, TabsRootProps } from "@trellis-app/kobalte-core/tabs";
 import { clsx } from "clsx";
 import { ComponentProps, ParentComponent, splitProps } from "solid-js";
 

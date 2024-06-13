@@ -13,7 +13,7 @@ import {
 	isWebKit,
 	mergeDefaultProps,
 	mergeRefs,
-} from "@kobalte/utils";
+} from "@trellis-app/kobalte-utils";
 import { JSX, ValidComponent, createEffect, on, splitProps } from "solid-js";
 
 import { ElementOf, Polymorphic, PolymorphicProps } from "../polymorphic";

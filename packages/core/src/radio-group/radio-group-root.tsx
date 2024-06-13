@@ -13,7 +13,7 @@ import {
 	access,
 	mergeDefaultProps,
 	mergeRefs,
-} from "@kobalte/utils";
+} from "@trellis-app/kobalte-utils";
 import { ValidComponent, createUniqueId, splitProps } from "solid-js";
 
 import {

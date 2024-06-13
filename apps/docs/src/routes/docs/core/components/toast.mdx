@@ -8,11 +8,11 @@ A succinct message that is displayed temporarily.
 ## Import
 
 ```ts
-import { Toast, toaster } from "@kobalte/core/toast";
+import { Toast, toaster } from "@trellis-app/kobalte-core/toast";
 // or
-import { Root, toaster, ... } from "@kobalte/core/toast";
+import { Root, toaster, ... } from "@trellis-app/kobalte-core/toast";
 // or (deprecated)
-import { Toast, toaster } from "@kobalte/core";
+import { Toast, toaster } from "@trellis-app/kobalte-core";
 ```
 
 ## Features
@@ -74,7 +74,7 @@ The toast consists of:
   {/* <!-- prettier-ignore-start -->*/}
   <TabsSnippets.Content value="index.tsx">
     ```tsx
-    import { Toast, toaster } from "@kobalte/core/toast";
+    import { Toast, toaster } from "@trellis-app/kobalte-core/toast";
     import { CrossIcon } from "some-icon-library";
     import "./style.css";
 
@@ -374,7 +374,7 @@ We expose the CSS custom properties `--kb-toast-swipe-move-[x|y]` and `--kb-toas
 ```tsx {18}
 // index.tsx
 
-import { Toast, toaster } from "@kobalte/core/toast";
+import { Toast, toaster } from "@trellis-app/kobalte-core/toast";
 import "./style.css";
 
 function App() {
@@ -432,7 +432,7 @@ It's common in toast libraries to have method for displaying different type of t
 ```tsx
 // toast.tsx
 
-import { Toast, toaster } from "@kobalte/core/toast";
+import { Toast, toaster } from "@trellis-app/kobalte-core/toast";
 import { JSX } from "solid-js/jsx-runtime";
 import { Switch, Match } from "solid-js/web";
 
@@ -588,7 +588,7 @@ Inside your application, use add your custom region:
 
 ### Toast
 
-`Toast` is equivalent to the `Root` import from `@kobalte/core/toast` (and deprecated `Toast.Root`).
+`Toast` is equivalent to the `Root` import from `@trellis-app/kobalte-core/toast` (and deprecated `Toast.Root`).
 
 | Prop            | Description                                                                                                                                                                                                                                 |
 | :-------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |

@@ -12,7 +12,7 @@ import {
 	access,
 	createGenerateId,
 	mergeDefaultProps,
-} from "@kobalte/utils";
+} from "@trellis-app/kobalte-utils";
 import { Accessor, createMemo, createSignal, createUniqueId } from "solid-js";
 
 import { createRegisterId } from "../primitives";

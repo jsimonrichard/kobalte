@@ -6,7 +6,7 @@
  * https://github.com/radix-ui/primitives/blob/21a7c97dc8efa79fecca36428eec49f187294085/packages/react/avatar/src/Avatar.tsx
  */
 
-import { OverrideComponentProps } from "@kobalte/utils";
+import { OverrideComponentProps } from "@trellis-app/kobalte-utils";
 import { ValidComponent, createSignal, splitProps } from "solid-js";
 
 import { ElementOf, Polymorphic, PolymorphicProps } from "../polymorphic";

@@ -1,5 +1,5 @@
 import { CalendarDate, DateDuration } from "@internationalized/date";
-import { RangeValue, ValidationState } from "@kobalte/utils";
+import { RangeValue, ValidationState } from "@trellis-app/kobalte-utils";
 import { Accessor, createContext, useContext } from "solid-js";
 
 import { Direction } from "../i18n";

@@ -1,4 +1,4 @@
-import { TextField } from "@kobalte/core/text-field";
+import { TextField } from "@trellis-app/kobalte-core/text-field";
 import { createSignal } from "solid-js";
 
 import style from "./text-field.module.css";

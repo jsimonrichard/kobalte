@@ -1,4 +1,4 @@
-import { focusWithoutScrolling, mergeRefs } from "@kobalte/utils";
+import { focusWithoutScrolling, mergeRefs } from "@trellis-app/kobalte-utils";
 import { Component, JSX, Show, ValidComponent, splitProps } from "solid-js";
 
 import createPreventScroll from "solid-prevent-scroll";

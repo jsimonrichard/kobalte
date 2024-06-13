@@ -1,4 +1,4 @@
-import { Menubar } from "@kobalte/core/menubar";
+import { Menubar } from "@trellis-app/kobalte-core/menubar";
 import { createSignal } from "solid-js";
 
 import { CheckIcon, ChevronRightIcon, DotFilledIcon } from "../components";

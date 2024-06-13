@@ -18,7 +18,11 @@
  * https://github.com/radix-ui/primitives/blob/1b05a8e35cf35f3020484979086d70aefbaf4095/packages/react/tooltip/src/Tooltip.tsx
  */
 
-import { callHandler, getDocument, mergeRefs } from "@kobalte/utils";
+import {
+	callHandler,
+	getDocument,
+	mergeRefs,
+} from "@trellis-app/kobalte-utils";
 import { JSX, ValidComponent, onCleanup, splitProps } from "solid-js";
 import { isServer } from "solid-js/web";
 

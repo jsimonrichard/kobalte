@@ -1,4 +1,4 @@
-import { Button } from "@kobalte/core/button";
+import { Button } from "@trellis-app/kobalte-core/button";
 
 import style from "./button.module.css";
 

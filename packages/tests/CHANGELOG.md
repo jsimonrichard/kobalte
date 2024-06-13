@@ -1,4 +1,4 @@
-# @kobalte/tests
+# @trellis-app/kobalte-tests
 
 ## 0.6.0
 
@@ -29,7 +29,7 @@
     order ([#337](https://github.com/kobaltedev/kobalte/pull/337))
   - Combobox: pass virtualized to listbox ([#341](https://github.com/kobaltedev/kobalte/pull/341))
 
-  ## @kobalte/tests
+  ## @trellis-app/kobalte-tests
 
   Use vitest
 

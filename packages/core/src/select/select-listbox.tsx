@@ -1,4 +1,8 @@
-import { callHandler, mergeDefaultProps, mergeRefs } from "@kobalte/utils";
+import {
+	callHandler,
+	mergeDefaultProps,
+	mergeRefs,
+} from "@trellis-app/kobalte-utils";
 import {
 	Component,
 	JSX,

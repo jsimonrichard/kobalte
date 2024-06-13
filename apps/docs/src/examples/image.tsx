@@ -1,4 +1,4 @@
-import { Image } from "@kobalte/core/image";
+import { Image } from "@trellis-app/kobalte-core/image";
 
 import style from "./image.module.css";
 

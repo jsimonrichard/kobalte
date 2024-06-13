@@ -1,6 +1,6 @@
-import { Image } from "@kobalte/core/image";
-import { Skeleton } from "@kobalte/core/skeleton";
-import { ToggleButton } from "@kobalte/core/toggle-button";
+import { Image } from "@trellis-app/kobalte-core/image";
+import { Skeleton } from "@trellis-app/kobalte-core/skeleton";
+import { ToggleButton } from "@trellis-app/kobalte-core/toggle-button";
 import { createSignal } from "solid-js";
 
 import style from "./skeleton.module.css";

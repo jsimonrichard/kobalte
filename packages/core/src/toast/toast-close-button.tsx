@@ -6,7 +6,7 @@
  * https://github.com/radix-ui/primitives/blob/72018163e1fdb79b51d322d471c8fc7d14df2b59/packages/react/toast/src/Toast.tsx
  */
 
-import { callHandler } from "@kobalte/utils";
+import { callHandler } from "@trellis-app/kobalte-utils";
 import { Component, JSX, ValidComponent, splitProps } from "solid-js";
 
 import * as Button from "../button";

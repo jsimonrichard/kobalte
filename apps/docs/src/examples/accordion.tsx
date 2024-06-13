@@ -1,4 +1,4 @@
-import { Accordion } from "@kobalte/core/accordion";
+import { Accordion } from "@trellis-app/kobalte-core/accordion";
 import { createSignal } from "solid-js";
 
 import { ChevronDownIcon } from "../components";

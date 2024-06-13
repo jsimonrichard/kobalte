@@ -1,4 +1,4 @@
-import { Separator } from "@kobalte/core/separator";
+import { Separator } from "@trellis-app/kobalte-core/separator";
 
 import style from "./separator.module.css";
 

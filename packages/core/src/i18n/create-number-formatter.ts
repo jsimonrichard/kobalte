@@ -10,7 +10,7 @@ import {
 	NumberFormatOptions,
 	NumberFormatter,
 } from "@internationalized/number";
-import { MaybeAccessor, access } from "@kobalte/utils";
+import { MaybeAccessor, access } from "@trellis-app/kobalte-utils";
 import { Accessor, createMemo } from "solid-js";
 
 import { useLocale } from "./i18n-provider";

@@ -12,7 +12,7 @@ import {
 	mergeDefaultProps,
 	mergeRefs,
 	scrollIntoViewport,
-} from "@kobalte/utils";
+} from "@trellis-app/kobalte-utils";
 import {
 	Component,
 	JSX,

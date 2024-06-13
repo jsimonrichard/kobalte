@@ -10,7 +10,7 @@ import {
 	OverrideComponentProps,
 	createGenerateId,
 	mergeDefaultProps,
-} from "@kobalte/utils";
+} from "@trellis-app/kobalte-utils";
 import {
 	Accessor,
 	ValidComponent,

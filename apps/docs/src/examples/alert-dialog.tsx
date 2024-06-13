@@ -1,4 +1,4 @@
-import { AlertDialog } from "@kobalte/core/alert-dialog";
+import { AlertDialog } from "@trellis-app/kobalte-core/alert-dialog";
 
 import { CrossIcon } from "../components";
 import style from "./alert-dialog.module.css";

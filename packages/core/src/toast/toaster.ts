@@ -1,4 +1,4 @@
-import { isFunction } from "@kobalte/utils";
+import { isFunction } from "@trellis-app/kobalte-utils";
 
 import { toastStore } from "./toast-store";
 import {

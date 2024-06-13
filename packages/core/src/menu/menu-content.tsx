@@ -1,4 +1,4 @@
-import { OverrideComponentProps, mergeRefs } from "@kobalte/utils";
+import { OverrideComponentProps, mergeRefs } from "@trellis-app/kobalte-utils";
 import { Component, ValidComponent, splitProps } from "solid-js";
 
 import createPreventScroll from "solid-prevent-scroll";

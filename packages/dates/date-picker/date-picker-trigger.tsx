@@ -3,7 +3,7 @@ import {
 	callHandler,
 	mergeDefaultProps,
 	mergeRefs,
-} from "@kobalte/utils";
+} from "@trellis-app/kobalte-utils";
 import { JSX, createEffect, createMemo, onCleanup, splitProps } from "solid-js";
 
 import * as Button from "../button";

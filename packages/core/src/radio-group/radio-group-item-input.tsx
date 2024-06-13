@@ -11,7 +11,7 @@ import {
 	mergeDefaultProps,
 	mergeRefs,
 	visuallyHiddenStyles,
-} from "@kobalte/utils";
+} from "@trellis-app/kobalte-utils";
 import {
 	JSX,
 	ValidComponent,

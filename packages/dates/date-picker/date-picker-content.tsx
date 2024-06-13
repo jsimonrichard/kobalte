@@ -4,7 +4,7 @@ import {
 	focusWithoutScrolling,
 	mergeDefaultProps,
 	mergeRefs,
-} from "@kobalte/utils";
+} from "@trellis-app/kobalte-utils";
 import { JSX, Show, createEffect, onCleanup, splitProps } from "solid-js";
 
 import createPreventScroll from "solid-prevent-scroll";

@@ -1,4 +1,8 @@
-import { EventKey, callHandler, mergeDefaultProps } from "@kobalte/utils";
+import {
+	EventKey,
+	callHandler,
+	mergeDefaultProps,
+} from "@trellis-app/kobalte-utils";
 import { JSX, ValidComponent, splitProps } from "solid-js";
 
 import { ElementOf, Polymorphic, PolymorphicProps } from "../polymorphic";

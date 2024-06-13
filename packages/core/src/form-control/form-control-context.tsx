@@ -1,4 +1,4 @@
-import { ValidationState } from "@kobalte/utils";
+import { ValidationState } from "@trellis-app/kobalte-utils";
 import { Accessor, createContext, useContext } from "solid-js";
 
 export interface FormControlDataSet {

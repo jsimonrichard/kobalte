@@ -6,8 +6,8 @@
  * https://github.com/adobe/react-spectrum/blob/99ca82e87ba2d7fdd54f5b49326fd242320b4b51/packages/%40react-aria/spinbutton/src/useSpinButton.ts
  */
 
-import { mergeDefaultProps } from "@kobalte/utils";
-import { ValidationState, callHandler } from "@kobalte/utils";
+import { mergeDefaultProps } from "@trellis-app/kobalte-utils";
+import { ValidationState, callHandler } from "@trellis-app/kobalte-utils";
 import {
 	JSX,
 	ValidComponent,

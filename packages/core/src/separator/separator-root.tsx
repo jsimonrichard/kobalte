@@ -6,7 +6,11 @@
  * https://github.com/adobe/react-spectrum/blob/6b51339cca0b8344507d3c8e81e7ad05d6e75f9b/packages/@react-aria/separator/src/useSeparator.ts
  */
 
-import { Orientation, mergeDefaultProps, mergeRefs } from "@kobalte/utils";
+import {
+	Orientation,
+	mergeDefaultProps,
+	mergeRefs,
+} from "@trellis-app/kobalte-utils";
 import { ValidComponent, splitProps } from "solid-js";
 
 import { ElementOf, Polymorphic, PolymorphicProps } from "../polymorphic";

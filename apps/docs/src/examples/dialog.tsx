@@ -1,4 +1,4 @@
-import { Dialog } from "@kobalte/core/dialog";
+import { Dialog } from "@trellis-app/kobalte-core/dialog";
 
 import { CrossIcon } from "../components";
 import style from "./dialog.module.css";

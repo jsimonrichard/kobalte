@@ -1,4 +1,8 @@
-import { OverrideComponentProps, isFunction, mergeRefs } from "@kobalte/utils";
+import {
+	OverrideComponentProps,
+	isFunction,
+	mergeRefs,
+} from "@trellis-app/kobalte-utils";
 import { Accessor, JSX, ValidComponent, children, splitProps } from "solid-js";
 
 import { FormControlDataSet, useFormControlContext } from "../form-control";

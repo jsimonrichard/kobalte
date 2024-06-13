@@ -18,7 +18,7 @@ import {
 	shift,
 	size,
 } from "@floating-ui/dom";
-import { mergeDefaultProps } from "@kobalte/utils";
+import { mergeDefaultProps } from "@trellis-app/kobalte-utils";
 import {
 	Accessor,
 	ParentProps,

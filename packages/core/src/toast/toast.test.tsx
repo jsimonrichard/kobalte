@@ -1,4 +1,7 @@
-import { createPointerEvent, installPointerEvent } from "@kobalte/tests";
+import {
+	createPointerEvent,
+	installPointerEvent,
+} from "@trellis-app/kobalte-tests";
 import { fireEvent, render } from "@solidjs/testing-library";
 import { vi } from "vitest";
 

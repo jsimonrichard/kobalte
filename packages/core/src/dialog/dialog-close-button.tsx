@@ -1,4 +1,4 @@
-import { callHandler } from "@kobalte/utils";
+import { callHandler } from "@trellis-app/kobalte-utils";
 import { Component, JSX, ValidComponent, splitProps } from "solid-js";
 
 import * as Button from "../button";

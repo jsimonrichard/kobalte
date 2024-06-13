@@ -6,7 +6,7 @@
  * https://github.com/ariakit/ariakit/blob/8a13899ff807bbf39f3d89d2d5964042ba4d5287/packages/ariakit-react-utils/src/hooks.ts
  */
 
-import { isString } from "@kobalte/utils";
+import { isString } from "@trellis-app/kobalte-utils";
 import { Accessor, Component, createEffect, createSignal } from "solid-js";
 
 /**
