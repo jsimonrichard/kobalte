@@ -1,12 +1,12 @@
+import clsx, { ClassValue } from "clsx";
 import {
 	Component,
 	ComponentProps,
 	ValidComponent,
 	mergeProps,
 } from "solid-js";
-import { Polymorphic } from "../polymorphic";
-import clsx, { ClassValue } from "clsx";
 import { twMerge } from "tailwind-merge";
+import { Polymorphic } from "../polymorphic";
 
 export type ResolvePropsCallback<
 	T extends ValidComponent,
