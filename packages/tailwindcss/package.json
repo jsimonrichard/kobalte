@@ -12,13 +12,6 @@
     "components"
   ],
   "homepage": "https://github.com/kobaltedev/kobalte/tree/main/packages/tailwindcss#readme",
-  "bugs": {
-    "url": "https://github.com/kobaltedev/kobalte/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kobaltedev/kobalte.git"
-  },
   "license": "MIT",
   "author": "Fabien Marie-Louise <fabienml.dev@gmail.com>",
   "sideEffects": false,

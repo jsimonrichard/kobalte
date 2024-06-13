@@ -1,4 +1,9 @@
-# @trellis-app/kobalte-tailwindcss
+# Warning: this is not the official Kobalte package
+Check out https://www.npmjs.com/package/@kobalte/tailwindcss instead.
+
+---
+
+## @trellis-app/kobalte-tailwindcss
 
 A TailwindCSS plugin for styling Kobalte components with `data-*` attributes by using modifiers like `ui-expanded:*`.
 

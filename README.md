@@ -1,3 +1,9 @@
+# Warning: this is not the official Kobalte Repository
+Check out https://github.com/kobaltedev/kobalte instead.
+
+---
+
+
 # kobalte
 
 [![license-badge]](https://github.com/kobaltedev/kobalte#license)

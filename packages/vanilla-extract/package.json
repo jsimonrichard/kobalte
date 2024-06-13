@@ -13,13 +13,6 @@
     "vanilla-extract"
   ],
   "homepage": "https://github.com/kobaltedev/kobalte/tree/main/packages/vanilla-extract#readme",
-  "bugs": {
-    "url": "https://github.com/kobaltedev/kobalte/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kobaltedev/kobalte.git"
-  },
   "license": "MIT",
   "author": "Fabien Marie-Louise <fabienml.dev@gmail.com>",
   "sideEffects": false,

@@ -1,4 +1,9 @@
-# @trellis-app/kobalte-vanilla-extract
+# Warning: this is not the official Kobalte package
+Check out https://www.npmjs.com/package/@kobalte/vanilla-extract instead.
+
+---
+
+## @trellis-app/kobalte-vanilla-extract
 
 Vanilla Extract utils to style Kobalte components easily.
 

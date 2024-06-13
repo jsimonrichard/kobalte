@@ -1,4 +1,9 @@
-# @trellis-app/kobalte-utils
+# Warning: this is not the official Kobalte package
+Check out https://www.npmjs.com/package/@kobalte/utils instead.
+
+---
+
+## @trellis-app/kobalte-utils
 
 Common utilities and types for Kobalte.
 

@@ -1,4 +1,9 @@
-# @trellis-app/kobalte-core
+# Warning: this is not the official Kobalte package
+Check out https://www.npmjs.com/package/@kobalte/core instead.
+
+---
+
+## @trellis-app/kobalte-core
 
 Unstyled components and primitives for building accessible web apps and design systems with SolidJS.
 
