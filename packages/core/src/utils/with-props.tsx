@@ -79,7 +79,7 @@ export function withProps<
 			dynamicProps = resolveProps(filteredProps, extraPropsCalculated);
 		}
 
-		const totalProps = mergeProps(extraProps, props, dynamicProps);
+		const totalProps = mergeProps(extraPropsCalculated, props, dynamicProps);
 		return <Polymorphic as={props.as ?? Comp} {...totalProps} />;
 	};
 }
